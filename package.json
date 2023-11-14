@@ -1,10 +1,11 @@
 {
   "name": "business-models",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
