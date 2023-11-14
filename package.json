@@ -14,6 +14,10 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.0",
+    "@types/node": "^20.9.0",
+    "graphql": "^16.8.1",
     "zod": "^3.22.4"
   }
 }

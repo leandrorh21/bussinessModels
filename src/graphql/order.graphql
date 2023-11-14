@@ -1,0 +1,8 @@
+type Order {
+  id: ID!
+  trackCode: String
+  enterpriseID: Int
+  statusID: Int
+  serviceID: Int
+  crossdocking: Boolean
+}

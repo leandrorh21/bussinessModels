@@ -1,0 +1,7 @@
+type Enterprise {
+  id: ID!
+  comerciaName: String
+  businessName: String
+  countryID: Int
+  cityID: Int
+}
