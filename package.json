@@ -1,7 +1,8 @@
 {
   "name": "business-models",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/index",
+  "types": "dist/index",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p .",
