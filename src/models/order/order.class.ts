@@ -1,4 +1,4 @@
-import GenericClass from "models/generic.class";
+import GenericClass from "../generic.class";
 import { orderDTO } from "./order.dto";
 
 export default class Order extends GenericClass<orderDTO> {

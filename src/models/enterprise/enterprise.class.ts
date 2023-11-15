@@ -1,4 +1,4 @@
-import GenericClass from "models/generic.class";
+import GenericClass from "../generic.class";
 import { enterpriseDTO } from "./enterprise.dto";
 
 export default class Enterprise extends GenericClass<enterpriseDTO> {

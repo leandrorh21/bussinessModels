@@ -10,7 +10,8 @@
     "strictPropertyInitialization": false /* Check for class properties that are declared but not set in the constructor. */,
     "useUnknownInCatchVariables": false,
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
-    "declaration": true
+    "declaration": true,
+    "noImplicitAny": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
