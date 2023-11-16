@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
-    "module": "commonjs" /* Specify what module code is generated. */,
-    "baseUrl": "./src" /* Specify the base directory to resolve non-relative module names. */,
+    "target": "ESNext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "ESNext" /* Specify what module code is generated. */,
+    "moduleResolution": "Node",
+    "baseUrl": "." /* Specify the base directory to resolve non-relative module names. */,
+    "lib": ["ESNext"],
     "outDir": "dist" /* Specify an output folder for all emitted files. */,
     "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "sourceMap": false,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
     "strict": true /* Enable all strict type-checking options. */,
     "strictPropertyInitialization": false /* Check for class properties that are declared but not set in the constructor. */,
@@ -13,6 +16,6 @@
     "declaration": true,
     "noImplicitAny": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/index.ts"],
   "exclude": ["node_modules"]
 }

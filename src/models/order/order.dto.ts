@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const zodOrder = z.object({
+export const zodOrder = z.object({
   id: z.number(),
   trackCode: z.string(),
   enterpriseID: z.number(),
@@ -9,6 +9,4 @@ const zodOrder = z.object({
   crossdocking: z.boolean(),
 });
 
-type orderDTO = z.infer<typeof zodOrder>;
-
-export { zodOrder, orderDTO };
+export type orderDTO = z.infer<typeof zodOrder>;

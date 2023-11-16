@@ -1,14 +1,25 @@
 {
   "name": "business-models",
   "version": "1.0.0",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
+  "module": "dist",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist/**/*"
   ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "": [
+        "dist/index.d.ts"
+      ]
+    }
+  },
   "scripts": {
     "develop": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
+    "build": "tsc -p .",
     "prepare": "yarn build"
   },
   "devDependencies": {

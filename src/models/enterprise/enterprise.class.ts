@@ -1,7 +1,7 @@
-import GenericClass from "../generic.class";
+import { GenericClass } from "../generic.class";
 import { enterpriseDTO } from "./enterprise.dto";
 
-export default class Enterprise extends GenericClass<enterpriseDTO> {
+export class Enterprise extends GenericClass<enterpriseDTO> {
   declare id: number;
   declare businessName: string;
   declare comercialName: string;

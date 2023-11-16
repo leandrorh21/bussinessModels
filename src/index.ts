@@ -1,3 +1,3 @@
-import * as models from "./models";
-
-export { models };
+export * from "./models/enterprise";
+export * from "./models/order";
+export * from "./models/generic.class";
